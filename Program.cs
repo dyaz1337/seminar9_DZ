@@ -32,17 +32,17 @@
 // int n = Input("Введите N: ");
 // Console.WriteLine($"M = {m}; N = {n} -> {Summa(m, n)}");
 
-// int Input(string output)
-// {
-//     Console.Write(output);
-//     return int.Parse(Console.ReadLine());
-// }
-
 // int Summa(int m, int n)
 // {
 //     if (m == n)
 //         return n;
 //     return n + Summa(m, n - 1);
+// }
+
+// int Input(string output)
+// {
+//     Console.Write(output);
+//     return int.Parse(Console.ReadLine());
 // }
 
 // Задача 68: Напишите программу вычисления функции Аккермана с помощью рекурсии. Даны два неотрицательных числа m и n.
